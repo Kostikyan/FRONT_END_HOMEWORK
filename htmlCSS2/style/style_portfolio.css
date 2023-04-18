@@ -1,0 +1,122 @@
+body{
+    margin: auto;
+    padding: 0;
+}
+.container{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    display: flex;  
+    justify-content: center;
+}
+.body{
+    background-image: url(../images/b_body.jpg);
+    width: 251vh;
+}
+header{
+    position: absolute;
+}
+main{
+    position: absolute;
+    top: 260px;
+    width: 925px;
+}
+.index_header_pages{
+    display: flex;
+    justify-content: center;
+    width: fixed;
+}
+.index_header_logo_space{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+}
+.about_me_main img{
+    border: 1px black dotted;
+}
+.index_header_pages img{
+    margin-left: 20px;
+}
+.button_1:hover{
+    content: url(../images/btn_1_over.png)
+}
+.button_2:hover{
+    content: url(../images/btn_2_over.png)
+}
+.button_3:hover{
+    content: url(../images/btn_3_over.png)
+}
+.button_4:hover{
+    content: url(../images/btn_4_over.png)
+}
+.button_5:hover{
+    content: url(../images/btn_5_over.png)
+}
+.menu_global_text{
+    position: absolute;
+    font-size: 24px;
+    color: rgb(10, 30, 64);
+    top: 79px;
+    left: 24px;
+}
+.menu_s_text{
+    color: rgb(18, 35, 63);
+    font-size: 17px;
+    position: absolute;
+}
+.another_color_text{
+    color: rgb(25, 96, 25);
+    text-decoration: underline;
+}
+#page_number_1{
+    position: absolute;
+    background-image: url(../images/gallery_btn_over.png);
+    width: 22px;
+    height: 23px;
+    text-align: center;
+    top: 650px;
+    left: 680px;
+}
+#page_number_2{
+    position: absolute;
+    background-image: url(../images/gallery_btn.png);
+    width: 22px;
+    height: 23px;
+    text-align: center;
+    top: 650px;
+    left: 730px;
+}
+#page_number_3{
+    position: absolute;
+    background-image: url(../images/gallery_btn.png);
+    width: 22px;
+    height: 23px;
+    text-align: center;
+    top: 650px;
+    left: 780px;
+}
+footer{
+    position: absolute;
+    top: 900px;
+    width: 925px;
+}
+footer div p a{
+    text-decoration: none;
+    color: rgb(20, 54, 84); 
+    font-size: 20px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+footer div .footer_copyright{
+    color: rgb(237, 178, 106);
+}
+footer .footer_right_space{
+    position: absolute;
+    top: 100px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    width: fixed;
+}
